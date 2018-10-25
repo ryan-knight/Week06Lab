@@ -13,8 +13,8 @@
         <title>Login</title>
     </head>
     <body>
-        <h1>Remember Me Login Page</h1>
+        <h1>Remember Me Login Page 2</h1>
         <div>${message}</div>
-        <tags:login></tags:login>
+        <tags:login />
     </body>
 </html>

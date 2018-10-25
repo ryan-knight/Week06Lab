@@ -14,7 +14,7 @@
     <table>
         <tr>
             <td>Username: </td>
-            <td><input type="text" name="username" autocomplete="off" autofocus="true"></td>
+            <td><input type="text" name="username" autocomplete="off" autofocus="true" value="${username}"></td>
         </tr>
         <tr>
             <td>Password: </td>

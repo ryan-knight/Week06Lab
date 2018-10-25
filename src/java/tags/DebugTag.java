@@ -25,30 +25,7 @@ public class DebugTag extends SimpleTagSupport
     @Override
     public void doTag() throws JspException
     {
-        JspWriter out = getJspContext().getOut();
-        
-        try
-        {
-            // TODO: insert code to write html before writing the body content.
-            // e.g.:
-            //
-            // out.println("<strong>" + attribute_1 + "</strong>");
-            // out.println("    <blockquote>");
-
-            JspFragment f = getJspBody();
-            if (f != null)
-            {
-                f.invoke(out);
-            }
-
-            // TODO: insert code to write html after writing the body content.
-            // e.g.:
-            //
-            // out.println("    </blockquote>");
-        } catch (java.io.IOException ex)
-        {
-            throw new JspException("Error in DebugTag tag", ex);
-        }
+        //add things
     }
     
 }
